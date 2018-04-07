@@ -5,4 +5,4 @@ service httpd start
 chkconfig httpd on
 echo "<?php phpinfo(); ?>" > /var/www/html/index.php
 cd /var/www/html
-wget 
+wget https://github.com/kishorepawank/awsserverless/blob/master/connect.php 
